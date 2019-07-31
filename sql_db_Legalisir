@@ -1,0 +1,41 @@
+create table tb_user (
+id_user int,
+username varchar(50),
+password varchar(50)
+);
+create table tb_alumni (
+nim_alumni varchar(9),
+nm_alumni varchar(50),
+jns_kelamin enum('L','P'),
+alamat varchar (225),
+no_telp varchar(13),
+fakultas varchar(50),
+progdi varchar(50)
+);
+create table tb_nota (
+id_nota varchar(11),
+id_permohonan varchar(11),
+status enum("Lunas","Belum Lunas"),
+bukti_bayar varchar(100),
+tgl_nota date,
+jumlah int
+);
+create table tb_permohonan (
+id_permohonan varchar(11),
+nim_alumni varchar(9),
+tgl_permohonan date
+);
+create table tb_petugas (
+id_petugas varchar(11),
+nm_petugas varchar(50),
+alamat varchar(225),
+no_telp varchar(13)
+);
+create table tb_pengumuman (
+id_pengumuman varchar(11),
+id_petugas varchar(11),
+nim_alumni varchar(9),
+jumlah int,
+verifikasi_legalisir varchar(20),
+total int
+);
