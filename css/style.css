@@ -1,0 +1,125 @@
+/*img*/
+img.ijasah {
+  width: 130px;
+  height: 160px;
+  padding-bottom: 8px;
+}
+.hborder1 {
+  border-top: #c9a43d solid;
+  border-width: 8px;
+}
+.w3-right {
+  background-color: #3a4b53;
+}
+img.lgumk{
+  margin-top: -8px;
+}
+.container {
+  /*background-color: #fdeca7;*/
+  background-color: #fff;
+}
+/*table*/
+table.putih{
+  border-color: #fbfbfa !important;
+}
+tr.datas:hover{
+  background-color: #ddd;
+  cursor: pointer;
+}
+dr{
+  font-weight: 900;
+}
+tr.bgpengumuman{
+  background-color: #4b77f5;
+  height: 70px;
+  vertical-align: top;
+}
+tr.bgpengumuman td{
+  padding-left: 20px;
+  padding-top: 10px;
+}
+/*public profil*/
+.feed_item{
+  border: 1px solid #bdb76b;
+  padding: 8px;
+  background-color: #f0ffff;
+}
+.feed_item:hover{
+  background-color: #bdb76b ;
+}
+
+/*profil*/
+.kanan{
+  float: right;
+}
+.w3-theme-l1:hover {
+  background-color: #c9a43d !important;
+}
+.rata {
+  text-align: justify;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.strip {
+  border-style: dashed;
+}
+.tebal{
+  font-weight: 700;
+}
+.w3-top{
+  position: fixed !important;
+}
+html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
+.prof {
+  width :40px;
+}
+.hborder {
+  border-top :#c9a43d solid;
+}
+.judul {
+  margin: 25px 0 5px 5px;
+}
+.marquee {
+  width : 119%;
+}
+.line {
+  background-color:#c9a43d;
+}
+[readonly] {
+  background-color: #ddd;
+}
+.modal-header{
+  background-color: #2f788e;
+}
+.w3-hide-small.w3-right a{
+  color: #fff;
+}
+.w3-top {
+  width: 1130px;
+}
+.w3-col.m6 {
+  float: none;
+}
+.modal-backdrop {
+  z-index: 0 !important;
+}
+td, th {
+  padding: 2px;
+}
+.nav-tabs>li>a {
+  color: #000;
+}
+.content1 {
+  margin-left: 38px;
+}
+.modal-dialog.ctk { 
+  margin : 100px 0 0 300px ;
+}
+.modal-header.nota{
+  background-color: #eceeef;
+}
+tr.header {font-weight:bold; text-align:center; background:#ccc; font-family:sans-serif; font-size:16px}
+tr.header2 {font-weight:bold; text-align:center; background:#c6f68e; font-family:sans-serif; font-size:16px}
+.w3-theme-d3, .log {
+  background-color:#c9a43d !important;
+}
